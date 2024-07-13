@@ -13,7 +13,8 @@ interface ISetProvider {
         address owner,
         uint64 universe,
         uint64 self,
-        string memory baseUri
+        string memory uriBase,
+        string memory uriQuery
     ) external returns (bytes4);
 
     function onTouch(uint64 id) external returns (bytes4);

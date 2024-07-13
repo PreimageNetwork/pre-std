@@ -24,11 +24,4 @@ interface ISet is IERC1155MetadataURI {
     function revAt(uint64 id, uint32 rev) external view returns (uint32);
 
     function ownerOf(uint64 id) external view returns (address);
-
-    // function dataOf(
-    //     uint64 id
-    // )
-    //     external
-    //     view
-    //     returns (ObjectMeta memory meta, uint256[] memory state, address owner);
 }
